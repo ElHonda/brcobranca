@@ -288,8 +288,7 @@ module Brcobranca
             doc.show boleto.instrucao9
           end
 
-
-          move_more(doc, 0.5, -1.9)
+          move_more(doc, 0.5, -0.7)
           doc.show "#{boleto.sacado} - CPF/CNPJ: #{boleto.sacado_documento.formata_documento}" if boleto.sacado && boleto.sacado_documento
 
           move_more(doc, 0, -0.4)
