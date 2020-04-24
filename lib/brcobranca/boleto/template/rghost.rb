@@ -263,32 +263,32 @@ module Brcobranca
             move_more(doc, -15.8, -0.9)
             doc.show boleto.instrucao1
 
-            move_more(doc, 0, -0.4)
+            move_more(doc, 0, -0.3)
             doc.show boleto.instrucao2
 
-            move_more(doc, 0, -0.4)
+            move_more(doc, 0, -0.3)
             doc.show boleto.instrucao3
 
-            move_more(doc, 0, -0.4)
+            move_more(doc, 0, -0.3)
             doc.show boleto.instrucao4
 
-            move_more(doc, 0, -0.4)
+            move_more(doc, 0, -0.3)
             doc.show boleto.instrucao5
 
-            move_more(doc, 0, -0.4)
+            move_more(doc, 0, -0.3)
             doc.show boleto.instrucao6
 
-            move_more(doc,0, -0.4)
+            move_more(doc,0, -0.3)
             doc.show boleto.instrucao7
 
-            move_more(doc,0, -0.4)
+            move_more(doc,0, -0.3)
             doc.show boleto.instrucao8
 
-            move_more(doc,0, -0.4)
+            move_more(doc,0, -0.3)
             doc.show boleto.instrucao9
           end
 
-          move_more(doc, 0.5, -0.7)
+          move_more(doc, 0.5, -1.5)
           doc.show "#{boleto.sacado} - CPF/CNPJ: #{boleto.sacado_documento.formata_documento}" if boleto.sacado && boleto.sacado_documento
 
           move_more(doc, 0, -0.4)
