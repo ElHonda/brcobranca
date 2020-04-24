@@ -277,6 +277,17 @@ module Brcobranca
 
             move_more(doc, 0, -0.4)
             doc.show boleto.instrucao6
+
+            if boleto.banco = '033'
+              move_more(doc,0, -0.4)
+              doc.show boleto.instrucao7
+
+              move_more(doc,0, -0.4)
+              doc.show boleto.instrucao8
+
+              move_more(doc,0, -0.4)
+              doc.show boleto.instrucao9
+            end
           end
 
 
